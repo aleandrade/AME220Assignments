@@ -1,4 +1,9 @@
 var easingsList = [
+  "ease",
+  "linear",
+  "ease-in",
+  "ease-out",
+  "ease-in-out",
 "swing",
 "easeInQuad",
 "easeOutQuad",
@@ -28,109 +33,415 @@ var easingsList = [
 "easeOutBack",
 "easeInOutBack",
 "easeInBounce",
-"easeOutBounce"
+"easeOutBounce" 
 ];
 
 var moveRight = function(){
-  for(n=0; n<30; n++){
-	var e = easingsList[n];
-	var d = parseInt($("#delay").val());
-	moveBoxRight(n, e, d);
-  }
+  var d = parseInt($("#delay").val());
+
+  var n = 0;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 1;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 2;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 3;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 4;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 5;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 6;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 7;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 8;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 9;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 10;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 11;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 12;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 13;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 14;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 15;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 16;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 17;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 18;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 19;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 20;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 21;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 22;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 23;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 24;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 25;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 26;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 27;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 28;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 29;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 30;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 31;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 32;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 33;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
+  var n = 34;
+  var e = easingsList[n];
+  moveBoxRight(n, e, d);
+
 }
 
 var moveLeft = function(){
-  for(n=0; n<30; n++){
-		var e = easingsList[n];
-		var d = parseInt($("#delay").val());
-		moveBoxLeft(n, e, d);
-	}
+  var d = parseInt($("#delay").val());
+
+  var n = 0;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 1;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 2;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 3;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 4;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 5;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 6;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 7;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 8;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 9;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 10;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 11;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 12;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 13;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 14;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 15;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 16;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 17;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 18;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 19;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 20;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 21;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 22;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 23;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 24;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 25;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 26;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 27;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 28;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 29;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 30;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 31;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 32;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 33;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
+
+  var n = 34;
+  var e = easingsList[n];
+  moveBoxLeft(n, e, d);
 }
 
 var hideBoxes = function(){
   var selection = parseInt($("#jqoption").val())
   if(selection == 0){
-    $(".button").fadeOut();
+    $(".button").stop().fadeOut();
   }
   else if(selection == 1){
-    $(".button").fadeToggle();
+    $(".button").stop().fadeToggle();
   }
   else if(selection == 2){
-    $(".button").slideToggle();
+    $(".button").stop().slideToggle();
   }
   else if(selection == 3){
-    $(".button").toggle();
+    $(".button").stop().toggle();
   }
   else if(selection == 4){
-    $(".button").slideUp();
+    $(".button").stop().slideUp();
   }
   else if(selection == 5){
-    $(".button").hide();
+    $(".button").stop().hide();
   }
-  else{
-    $(".button").animate({opacity:0});
+  else if(selection == 6){
+    $(".button").stop().animate({opacity:0});
   }
-
+ // selChanged();
 }
 
-var showBoxes = function(){
+var showBoxes = function(flag){
   var selection = parseInt($("#jqoption").val())
   if(selection == 0){
-    $(".button").fadeIn();
+    $(".button").stop().fadeIn();
   }
   if(selection == 1){
-    $(".button").fadeToggle();
+    $(".button").stop().fadeToggle();
   }
   if(selection == 2){
-    $(".button").slideToggle();
+    $(".button").stop().slideToggle();
   }
   if(selection == 3){
-    $(".button").toggle();
+    $(".button").stop().toggle();
   }
   if(selection == 4){
-    $(".button").slideDown();
+    $(".button").stop().slideDown();
   }
   if(selection == 5){
-    $(".button").show();
+    $(".button").stop().show();
   }
   if(selection == 6){
-    $(".button").animate({opacity:1});
+    $(".button").stop().animate({opacity:1});
+  }
+  if(flag) return;
+  selChanged();
+}
+
+var selChanged = function(){
+  var selection = parseInt($("#iscss").val())
+  if(selection == 1){
+    showBoxes(true);
+    $("#hideShowButton").html("Hide Boxes");
+    setTimeout(selChanged_Aux, 1000)
+  }
+  else{
+    $("#endColor").hide();
+    $(".button").show();
+    $(".cssonly").stop().hide();
+    $("#hideShowButton,#jqoption").show();
   }
 }
 
-var backgroundChange = function(){
-  var selection = parseInt($("#bgoption").val())
-  if(selection == 0){
-    $( ".button" ).css( "background-color", "white" );
-  }
-  if(selection == 1){
-    $( ".button" ).css( "background-color", "red" );
-  }
-  if(selection == 2){
-    $( ".button" ).css( "background-color", "green" );
-  }
-  if(selection == 3){
-    $( ".button" ).css( "background-color", "blue" );
-  }
-  if(selection == 4){
-    $( ".button" ).css( "background-color", "gray" );
-  }
+var selChanged_Aux = function()
+{
+    $("#endColor").show();
+    $(".button").hide();
+    $(".cssonly").stop().show();
+    $("#hideShowButton,#jqoption").hide();
 }
 
 var moveBoxRight= function(n, easing, duration)
 {
+  var jq = $("#iscss").val() == "0";
   var id = "#button" + n.toString();
+  var ec = $("#endColor").val();
   var pageWidth = $("body").width();
   var boxWidth = 150;
-  $(id).animate({"margin-left":pageWidth-boxWidth + "px"}, duration, easing); 
+  if(jq){
+    if(n < 5) return;
+    $(id).animate({"margin-left":pageWidth-boxWidth + "px"}, duration, easing);  
+  }
+  else{
+    if(n >= 5) return;
+	
+	$( id ).css( "margin-left", pageWidth-boxWidth + "px" );
+	$( id ).css( "transition-delay", duration + "ms");
+	$( id ).css( "transition-timing-function", easing );
+	$( id ).css( "background-color", ec );		
+    console.log("Write this code");
+  }
 }
 
 var moveBoxLeft= function(n, easing, duration)
 {
+  var jq = $("#iscss").val() == "0"; 
+  var ec = $("#endColor").val();
   var id = "#button" + n.toString();
   var pageWidth = $("body").width();
   var boxWidth = 150;
-  $(id).animate({"margin-left" : "0px"}, duration, easing); 
+  if(jq){
+    if(n < 5) return;
+    $(id).animate({"margin-left" : "0px"}, duration, easing); 
+  }
+  else{
+    if(n >= 5) return;
+	$( id ).css( "margin-left", "0px" );
+	$( id ).css( "transition-delay", duration + "ms");
+	$( id ).css( "transition-timing-function", easing );
+	$( id ).css( "background-color", ec );	
+	console.log("Write this code");
+  }
 }
 
 
@@ -147,6 +458,16 @@ var toggleBoxes = function()
   }
 }
 
+var init = function()
+{
+  selChanged();
+  $(".button").each(doSomething);
+}
+
+var doSomething = function(index){
+  $("#button" + index).html(easingsList[index]);
+}
+
 var LeftRightButton = function()
 {
   var current = $("#LeftRight").html();
@@ -158,13 +479,4 @@ var LeftRightButton = function()
 	 moveLeft();
     $("#LeftRight").html("Move Right");
   }
-}
-
-var init = function()
-{
-    $(".button").each(doSomething);
-}
-
-var doSomething = function(index){
-  console.log(index);
 }
