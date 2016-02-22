@@ -32,21 +32,19 @@ var easingsList = [
 ];
 
 var moveRight = function(){
-  var d = parseInt($("#delay").val());
-
-  var n = 0;
-  var e = easingsList[n];
-  moveBoxRight(n, e, d);
-
-  var n = 1;
-  var e = easingsList[n];
-  moveBoxRight(n, e, d);
-
-
-
+  for(n=0; n<30; n++){
+	var e = easingsList[n];
+	var d = parseInt($("#delay").val());
+	moveBoxRight(n, e, d);
+  }
 }
 
 var moveLeft = function(){
+  for(n=0; n<30; n++){
+		var e = easingsList[n];
+		var d = parseInt($("#delay").val());
+		moveBoxLeft(n, e, d);
+	}
 }
 
 var hideBoxes = function(){
@@ -100,6 +98,25 @@ var showBoxes = function(){
   }
 }
 
+var backgroundChange = function(){
+  var selection = parseInt($("#bgoption").val())
+  if(selection == 0){
+    $( ".button" ).css( "background-color", "white" );
+  }
+  if(selection == 1){
+    $( ".button" ).css( "background-color", "red" );
+  }
+  if(selection == 2){
+    $( ".button" ).css( "background-color", "green" );
+  }
+  if(selection == 3){
+    $( ".button" ).css( "background-color", "blue" );
+  }
+  if(selection == 4){
+    $( ".button" ).css( "background-color", "gray" );
+  }
+}
+
 var moveBoxRight= function(n, easing, duration)
 {
   var id = "#button" + n.toString();
@@ -127,6 +144,19 @@ var toggleBoxes = function()
   else{
     showBoxes();
     $("#hideShowButton").html("Hide Boxes");
+  }
+}
+
+var LeftRightButton = function()
+{
+  var current = $("#LeftRight").html();
+  if(current == "Move Right"){
+	moveRight();
+    $("#LeftRight").html("Move Left");
+  }
+  else{
+	 moveLeft();
+    $("#LeftRight").html("Move Right");
   }
 }
 
